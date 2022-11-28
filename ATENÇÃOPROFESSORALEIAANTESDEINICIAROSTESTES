@@ -1,0 +1,11 @@
+Prof recomendo testar o código na pasta raiz ( htdocs ), configurar um banco com o seguinte código sql e colocar suas credenciais do banco de dados no arquivo conexão.php. 
+
+create database devwebbackend;
+use devwebbackend;
+
+CREATE TABLE usuario (
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome varchar(255),
+    email varchar(255),
+    senha varchar(255)
+);
